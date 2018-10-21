@@ -1,0 +1,26 @@
+{
+  "name": "property-webapi",
+  "version": "1.0.0",
+  "description": "take an array-typed payload and return filtered records",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Property",
+    "Test"
+  ],
+  "author": "Alex Ng",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  }
+}
