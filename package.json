@@ -11,7 +11,8 @@
     "RESTful",
     "API",
     "Property",
-    "Test"
+    "Test",
+    "heroku"
   ],
   "author": "Alex Ng",
   "license": "ISC",
@@ -22,5 +23,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "lodash": "^4.17.11"
+  },
+  "engines": {
+    "node": "6.9.1"
   }
 }
